@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yun">
+    <output-path>$PROJECT_DIR$/out/artifacts/yun</output-path>
+    <root id="archive" name="yun.war">
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="云test" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="云test/web/Web" />
+    </root>
+  </artifact>
+</component>
